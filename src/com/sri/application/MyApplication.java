@@ -16,6 +16,8 @@ public class MyApplication extends Application {
 	@SuppressWarnings("resource")
 	public MyApplication() {
 		ApplicationContext applicationContext = null;
+
+		System.out.println("mickey");
 		
 		this.singleton = new HashSet<Object>();
 		this.classes = new HashSet<Class<?>>();
